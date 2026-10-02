@@ -1,45 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Warm Hearth - Home</title>
-
+    <title>Warm Heath - Home</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
+<body> <nav class="navbar">
+<div class="logo">
+    Warm hearth
+    </div>
+    <div class="nav-links">
+        <a href="index.html"class="active">
+            Home
+        </a>
+        <a href="projects.html">
+            Menu
+        </a>
+        <a href="#">
+            About
+        </a>
+        <a href="#">
+            Contact
+        </a>
+    </div>
+    <div class="nav-icons">
+        <span>⌕</span>
+        <span>♡</span>
+        <span>🛒</span>
 
-<body>
-
-    <div id="navbar"></div>
-
+    </div>
+</nav>
     <section class="hero">
-
         <div class="hero-text">
-
-            <h1>
-                Crafting Memorable<br>
+            <h1>Crafting Memorable<br>
                 Dining Experiences
             </h1>
-
             <p>
                 Elevating everyday ingredients into extraordinary culinary
                 moments. Offering personalized private dining, bespoke
                 event catering, and a philosophy rooted in seasonal,
                 farm-to-table excellence.
             </p>
-
             <a href="#" class="main-button">
                 Book a Private Dinner
             </a>
 
         </div>
-
-
         <div class="hero-image">
 
             <img
@@ -49,8 +57,8 @@
 
         </div>
 
-    </section>
-    <section class="featured">
+        </section>
+        <section class="featured">
 
         <div class="section-heading">
 
@@ -63,134 +71,76 @@
             </a>
 
         </div>
-
-
-        <div class="works">
-
-            <div class="work-card big-card">
-
+        <div class="Work">
+            <div class="Work-card big-card">
                 <img
-                    src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=1200&q=80"
-                    alt="Artisanal Honey Pancakes"
-                >
-
+                src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=1200&q=80"
+                alt="Artisanal Honey Pancakes">
                 <div class="card-content">
-
                     <div class="tags">
-
                         <span class="orange-tag">
                             Brunch Event
                         </span>
-
                         <span class="gray-tag">
                             Private
                         </span>
-
                     </div>
-
                     <h3>
                         Artisanal Honey Pancakes
                     </h3>
-
-                    <p>
-                        🍴 12 Guests
-                    </p>
-
+                    <p>🍴 12 Guests</p>
                 </div>
-
-            </div>
+            </div> 
             <div class="right-cards">
-
                 <div class="work-card small-card">
-
                     <img
-                        src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80"
-                        alt="Heirloom Tomato Bisque"
-                    >
-
+                    src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80"
+                    alt="Heirloom Tomato Bisque">
                     <div class="card-content">
-
-                        <h3>
-                            Heirloom Tomato Bisque
-                        </h3>
-
-                        <p>
-                            🍴 Tasting Menu
-                        </p>
-
+                        <h3>Heirloom Tomato Bisque</h3>
+                        <p>🍴 Tasting Menu</p>
                     </div>
-
                 </div>
-
-
                 <div class="work-card small-card">
-
                     <img
-                        src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=800&q=80"
-                        alt="Roasted Lemon Herb Chicken"
-                    >
-
-                    <div class="card-content">
-
-                        <h3>
-                            Roasted Lemon Herb Chicken
-                        </h3>
-
-                        <p>
-                            🍴 Intimate Dinner
-                        </p>
-
-                    </div>
-
+                    src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=800&q=80"
+                    alt="Roasted Lemon Herb Chicken">
+                    <h3>Roasted Lemon Herb Chicken</h3>
+                    <p>🍴 Intimate Dinner</p>
                 </div>
-
             </div>
-
-        </div>
-
+        </div> 
+    </div> 
     </section>
-
-
     <section class="cta">
-
-        <h2>
-            Ready to elevate your next event?
-        </h2>
-
-        <p>
-            Let's collaborate to create a customized culinary<br>
+        <h2>Ready to elevent your next event?</h2>
+        <p>Let's collaborate to create a customized culinary<br>
             experience tailored to your unique tastes and occasion.
         </p>
-
         <a href="#" class="cta-button">
-            Contact for Consultation
+            Contanct for Consultation
         </a>
-
     </section>
-    <div id="footer"></div>
-    <script>
-
-        fetch("navbar.html")
-            .then(response => response.text())
-            .then(data => {
-
-                document.getElementById("navbar").innerHTML = data;
-                document.querySelector(".home-link").classList.add("active");
-
-            });
-
-
-        fetch("footer.html")
-            .then(response => response.text())
-            .then(data => {
-
-                document.getElementById("footer").innerHTML = data;
-
-            });
-
-    </script>
+    <footer class="footer">
+        <div class="footer-logo">
+            Warm Hearth
+        </div>
+        <div class="footer-links">
+            <a href="#">
+                About
+            </a>
+            <a href="#">
+                Privacy
+            </a>
+            <a href="#">
+                Contact
+            </a>
+        </div>
+        <p>© 2024 Warm Hearth. Made for home cooks.</p>
+    </footer>
 
 
+    
 </body>
-
 </html>
+
